@@ -1,3 +1,4 @@
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -16,7 +17,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+          <img src="img\nav_logo.jpg" className="img-responsive" alt="" />
           </a>{' '}
         </div>
 
@@ -27,12 +28,12 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                About  Us
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                Seenan is homosexual
+                Why join
               </a>
             </li>
             <li>
